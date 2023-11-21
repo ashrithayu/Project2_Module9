@@ -1,6 +1,3 @@
-# 3. Dataset scrape from any website using beautiful soup
-# 4. analysis of the data from 2 or 3
-
 import requests
 import xml.etree.ElementTree as ET
 import pandas as pd
@@ -116,7 +113,6 @@ class SitemapParser:
 
 
 if __name__ == "__main__":
-    # Replace with your robots.txt URL
     robots_url = "https://befound.pt/robots.txt"
 
     crawler = SitemapParser(robots_url)
